@@ -1,0 +1,7 @@
+# Runtime dependencies for the retaining-wall web app.
+# Install and run with:
+#   pip install -r requirements.txt
+#   streamlit run app.py
+streamlit>=1.50      # >=1.50 for the `width="stretch"` layout argument
+numpy                # vectorised Coulomb wedge scan (Q2 extension) and future analysis
+matplotlib           # wall section and pressure diagrams

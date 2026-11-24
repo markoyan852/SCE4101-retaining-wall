@@ -1,0 +1,11 @@
+# Python build/test artefacts — do not commit
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
